@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>#7</title>
+		<style>
+			.container{
+				display: flex;
+				justify-content: center;
+				margin-top: 200px;
+			}
+			
+			.tsquare{
+				margin : 0 40px;
+				transition : transform 0.5s linear;
+			}
+			.tsquare1{
+				background-color: red;
+			}
+			
+			.tsquare1:hover{
+				transform : Scale(2);
+			}
+		</style>
+	</head>
+	<body>
+		<p>Cursor on below table to see the result:</p>
+		
+		<div class="container">
+
+			<table class="tsquare tsquare1" border="1px">
+				<tr>
+					<th>Id</th>
+					<th>Name</th>
+					<th>age</th>
+				</tr>
+				<tr>
+					<td>1001</td>
+					<td>Amit</td>
+					<td>17</td>
+				</tr>
+				<tr>
+					<td>1002</td>
+					<td>Sumit</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>1003</td>
+					<td>Veer</td>
+					<td>43</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
